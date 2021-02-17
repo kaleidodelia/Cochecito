@@ -1,0 +1,52 @@
+body{
+    background-image: url("cesped.jpg");
+    margin: 0;
+}
+
+.carretera{
+display: block;
+margin: auto;
+text-align: center;
+top: 0px;
+position: relative;
+}
+
+.coche{
+    position: absolute;
+    top: 50px;
+    left: 50%;
+    margin: 0 auto;
+}
+
+#message{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    opacity: 0;
+    text-align: center;
+    transform: translateY(-100%);
+    z-index: 100;
+    background-color: rgba(0, 128, 0, 0.774);
+    color: #fff;
+    padding: 16px;
+
+}
+
+#message.is-active{
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.banderaUno{
+    position: absolute;
+    top: 1540px;
+    left:36%;
+
+}
+
+.banderaDos{
+    position: absolute;
+    top: 3205px;
+    left:36%;
+}
